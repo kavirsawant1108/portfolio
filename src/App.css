@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.home {
+  text-align: center;
+  padding: 100px;
+  background: #f2f2f2;
+}
+
+.about,
+.projects,
+.contact {
+  padding: 50px;
+}
