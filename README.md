@@ -2,13 +2,15 @@
 
 > Personal developer portfolio built with React and Vite to showcase projects, technical skills, and software engineering work.
 
+**Live Demo:** https://kavirsawant1108.github.io/portfolio
+
 ## Overview
 
 This portfolio is designed as a professional frontend showcase for projects, technologies, and engineering experience.
 
-It uses React for the UI, Vite for development and builds, and a collection of animation and 3D libraries to create an interactive experience.
+It uses React for the UI, Vite for development and builds, and animation/3D libraries to create an interactive experience.
 
-## Features
+## Key Features
 
 - Responsive developer portfolio
 - Project showcase
@@ -16,20 +18,19 @@ It uses React for the UI, Vite for development and builds, and a collection of a
 - Animated UI interactions
 - 3D / particle-based visual elements
 - Client-side routing
-- GitHub Pages deployment configuration
+- GitHub Pages deployment
 
 ## Tech Stack
 
-- React
-- JavaScript
-- Vite
-- Tailwind CSS
-- React Router
-- Framer Motion
-- Three.js / React Three Fiber
-- React Tsparticles
-- AOS
-- GitHub Pages
+| Area | Technology |
+|---|---|
+| UI | React, JavaScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Routing | React Router |
+| Animation | Framer Motion, AOS |
+| 3D / Visuals | Three.js, React Three Fiber, React Tsparticles |
+| Deployment | GitHub Pages |
 
 ## Getting Started
 
@@ -60,8 +61,6 @@ npm run build
 
 ### Deploy
 
-The repository includes a GitHub Pages deployment script:
-
 ```bash
 npm run deploy
 ```
@@ -70,31 +69,32 @@ npm run deploy
 
 ```text
 portfolio/
-├── src/
+├── .github/
 ├── public/
+├── src/
+├── index.html
 ├── package.json
-├── vite.config.*
+├── vite.config.js
 └── README.md
 ```
 
-## Live Demo
-
-GitHub Pages:
-
-https://kavirsawant1108.github.io/portfolio
-
 ## Engineering Focus
 
-The project demonstrates component-based UI development, responsive frontend design, client-side routing, animation, and deployment using GitHub Pages.
+The project demonstrates component-based UI development, responsive frontend design, client-side routing, animation, interactive visual effects, and deployment using GitHub Pages.
+
+## Quality & Reliability
+
+- Production build is validated through the repository's CI workflow.
+- Environment-specific files are excluded from version control.
+- Future improvements should prioritize accessibility, frontend testing, and performance of heavy visual effects.
 
 ## Future Improvements
 
 - Add automated accessibility checks
 - Add frontend tests
-- Improve performance of heavy visual effects
-- Add CI build validation
+- Optimize heavy visual effects
 - Add project case studies with architecture and measurable outcomes
 
 ## License
 
-Add a license when the project's ownership and reuse terms are confirmed.
+Add a license when project ownership and reuse terms are confirmed.
